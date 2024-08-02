@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+
+/*Se resetea la configracion inicial de la pagina web*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins',sans-serif;
+}
+
+
+/*Se crea la parte del container*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Tipo de diseño (Imagen de fondo)*/
+
+.header {
+    background-image: url(images/Definitivo.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 98%;
+}
+
+/*Acomodar el Menu*/
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+
+/*Opciones de la palabra Logo*/
+.logo {
+    color: #FFFDFC;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    height: 98%;
+}
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+
+}
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+/*Ahora trabajamos con el encabzado*/
+
+.header-txt {
+    text-align: center;
+
+
+}
+.header-txt h1 {
+    font-size: 65px;
+    color: #100f0e;
+    background-color: #bebebe;
+    text-transform: uppercase;
+    
+    height: 98%;
+}
+.header-txt p {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 250px;
+    margin-bottom: 15px;
+
+}
+.header-txt a {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 12px 45px;
+    border: 1px solid #FFFDFC;
+    color: #11eeee;
+}
+.btn-1:hover {
+    color: #1B293A;
+    background-color: azure;
+}
+
+/*Edicion de la parte debajo del encabezado*/
+
+.general {
+    padding: 50px 0;
+    text-align: center;
+
+}
+.general-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+
+}
+.general-1 {
+    background-image: url(images/Fondo2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98%;
+    padding: 170px 55px;
+}
+.general-2 {
+    background-image: url(images/Fondo1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98%;
+    padding: 170px 55px;
+}
+.general-3 {
+    background-image: url(images/Fondo3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98%;
+    padding: 170px 55px;
+}
+.general-4 {
+    background-image: url(images/Fondo2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98%;
+    padding: 170px 55px;
+}
+.general-5 {
+    background-image: url(images/Fondo1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98%;
+    padding: 170px 55px;
+}
+.general-6 {
+    background-image: url(images/Fondo3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98%;
+    padding: 170px 55px;
+}
+
+/*Modificar todos los h2 en general*/
+
+h2 {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #1B293A;
+}
+
+.txt h3 {
+    font-size: 18px;
+    color: #FFFDFC;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+
+}
+.txt p {
+    color: #000000;
+    
+
+}
+
+.info-container h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #FFFDFC;
+}
+.circle-1 h2 {
+    font-size: 50px;
+    font-weight: normal;
+}
+.parrafos p {
+    text-align: center;
+    color: azure;
+}
+.info-1 {
+    padding: 250px 0;
+    background-image: url(images/Fondo5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.info-content {
+    text-align: center;
+
+}
+.info-content h2, span {
+    color: #FFFDFC;
+
+
+}
+
+.final {
+    padding: 250px 0;
+    background-position: center center;
+
+}
+.agradecer h2 {
+text-align: center;
+font-size: 25px;
+text-transform: none;
+}
+
+.imagen {
+    align-items: center;
+}
+.contacto2 h2 {
+    text-align: center;
+}
+.correo {
+    text-align: center;
+    font-size: 25px;
+}
+.correo22 {
+    text-align: center;
+    font-size: 25px;
+}
+.whats {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.mapa-st {
+    text-align: center;
+}
+
+.contenedor {
+    background: rgb(212, 212, 212);
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.info-content h2 {
+    color: #000000;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .contenedor {
+        width: 98%;
+    }
+    
+}
+
